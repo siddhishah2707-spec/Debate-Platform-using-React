@@ -1,0 +1,153 @@
+/* LoginPage Component Styles */
+.login-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.login-left {
+  width: 40%;
+  background: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-illustration {
+  max-width: 390px;
+  width: 85%;
+}
+
+.login-right {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-wrapper {
+  width: 100%;
+  max-width: 520px;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 39px;
+  text-align: center;
+}
+
+.login-icon {
+  width: 52px;
+  height: 52px;
+  margin-right: 13px;
+}
+
+.login-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 26px;
+  border: 1.3px solid #ccc;
+  border-radius: 13px;
+  font-size: 18px;
+  outline: none;
+}
+
+.login-form input[type="email"]:focus,
+.login-form input[type="password"]:focus {
+  border-color: #111;
+}
+
+.remember-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 39px;
+  font-size: 18px;
+}
+
+.remember-container input {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 18px;
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 13px;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #333;
+}
+
+.or-separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 32px 0;
+  font-size: 18px;
+  color: #777;
+}
+
+.or-separator::before,
+.or-separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1.3px solid #ccc;
+}
+
+.or-separator:not(:empty)::before {
+  margin-right: 12px;
+}
+
+.or-separator:not(:empty)::after {
+  margin-left: 12px;
+}
+
+.google-login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  width: 100%;
+  background-color: white;
+  color: #111;
+  font-size: 18px;
+  border: 1.3px solid #ccc;
+  border-radius: 13px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.google-login-button:hover {
+  background-color: #f5f5f5;
+}
+
+.google-icon {
+  width: 26px;
+  height: 26px;
+  margin-right: 13px;
+} 
